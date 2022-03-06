@@ -1092,7 +1092,7 @@ menu =
 ➪ *Permanen :* _15.000_
 
 ───────────────
-*_By DhaniGansOfficial_* :
+*_By JuniArta_* :
 ───────────────
 \`\`\`OPEN MURIDBOT :\`\`\`
 ➪ *Murid biasa :* _20.000_
@@ -1102,8 +1102,8 @@ menu =
 ➪ *Script Store :* _Hubungi owner_
 ➪ *Script Biasa :* _Hubungi owner_
 Untuk yang mau beli script / sc
-Bisa request jika minat silakan hubungi DhaniGansOfficial
-Nomor : https://wa.me/message/IMGMIAUAWC54J1`
+Bisa request jika minat silakan hubungi Kupyet
+Nomor : https://wa.link/8efndd`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
@@ -1112,10 +1112,10 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 gambar = fs.readFileSync('./media/sewa.jpg')
 menunya = `*「 PAYMENT 」*
 
-• Gopay : _Silakan scan qr di atas_
+• Gopay : _Tidak tersedia_
 • Dana : _Tidak tersedia_
 • Ovo : _Tidak tesedia_
-• Pulsa : _Tidak tersedia_`
+• Pulsa : _087752078682_`
 but = [
 { buttonId: `${prefix}menu`, buttonText: { displayText: 'ᴍᴇɴᴜ' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
