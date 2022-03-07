@@ -1103,7 +1103,7 @@ menu =
 ➪ *Script Biasa :* _Hubungi owner_
 Untuk yang mau beli script / sc
 Bisa request jika minat silakan hubungi Kupyet
-Nomor : https://wa.link/8efndd`
+Nomor : https://wa.me/message/X5QEIDLBFQUSH1`
 Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal} - ${time} WIB_*`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [senderr]}}}, 'buttonsMessage')
 break
 case 'bayar':
